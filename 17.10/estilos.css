@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body{
+      font-size: 100%;
+  }
+  
+  .cabecalho{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-between ;
+      padding: 24px;
+  }
+  
+  .cabecalho-img{
+      height: 72px;
+  }
+  
+  .cabecalho-menu-item{
+      display: flex;
+      gap: 32px;
+  }
+
+  .primeiro-video{
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    background-position: 50% 50%;
+
+}
+  
